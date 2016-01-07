@@ -6,3 +6,11 @@ title: jjuri
 
 <h1>소개</h1>
 <p>Hellow!</p>
+
+<ul>
+	{% for post in site.posts %}
+		<li>
+			<a href="{{ post.url }}">{{ post.title }}</a>
+		</li>
+	{% endfor %}
+</ul> 
