@@ -3,20 +3,7 @@ layout: index
 title: html5
 ---
 
-
-<h1>소개</h1>
-<p>Hellow!</p>
-
-<!-- post.date : {{ post.date }} -->
-{% for post in paginator.posts %}
-
-	<section>
-		{{ post.content }}
-		<footer>
-			<p><a href="{{ post.url }}" class="permalink" title="{{ post.title }}">permalink</a></p>
-		</footer>
-	</section>
-{% endfor %} 
+<h1>시작하기</h1>
 
 <ul>
 	{% for post in site.posts %}
