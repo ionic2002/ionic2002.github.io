@@ -10,20 +10,21 @@
    			line-height: 1.9em;
    			text-align: left;
 			padding: 0 1.5em;
+			color: #444;
 		}
 
-		h1{font-size: 1.3em; color: #566b77;}
+		h1{font-size: 1.5em; color: #566b77;}
+		h2{font-size: 1.2em;}
 		p{font-size: 1em;}
-		ul{ background-color: #eee; border-radius: 5px;  border: 1px  solid #ddd;}
-		ul li{padding: 0.5em;}
+		
+		a{text-decoration: none;}
+		a:hover{text-decoration: underline;}
 
 	</style>
 </head>
 <body>
 	<h1>시작하기</h1>
 	
-	<h2>하나</h2>
-	<p>...</p>
 	{{ content }}
 
 	{% include footer.html %}
